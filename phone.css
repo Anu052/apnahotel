@@ -40,7 +40,7 @@ list-style: none;
   background-color: white;
   color: black;
   transition: all 0.3 ease;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .section-1{
     height: 100vh;
@@ -250,10 +250,6 @@ article{
     background-color: white;
     color: black;
 }
-.cards-item1:hover{
-    cursor: pointer;
-  animation: box 1s 1 linear;
-}
 .cards-item1 h1{
     color: black;
     font-size: 30px;
@@ -321,6 +317,7 @@ footer{
     text-align: center;
     background-color: black;
     color: white;
+    padding: 15px;
 }
 @keyframes jaadu {
     0%{
@@ -476,26 +473,22 @@ footer{
         font-size: 15px;
         padding: 10px;
     }
-        nav ul{
-        position: fixed;
-        height: 100vh;
-        top: 80px;
-        left: -100%;
-        background: #111;
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-    nav ul li{
-        margin: 40px 0px;
-    }
-    nav ul li a{
-      display: block;
-    }
-    nav ul li a:hover{
-        background: none;
-        color: cyan;
-    }
-
-      
+         
+}
+@media (max-width:540px) {
+header{
+    height: 600px;
+    display: block;
+}
+.head ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+.section-3 .f1 img{
+    width: 253px;
+}
+.f2 p{
+    padding: 0px;
+}
 }
