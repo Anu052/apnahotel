@@ -39,6 +39,8 @@ list-style: none;
 .header ul li a:hover{
   background-color: white;
   color: black;
+  transition: all 0.3 ease;
+  border-radius: 10px;
 }
 .section-1{
     height: 100vh;
@@ -473,6 +475,26 @@ footer{
     .contant p{
         font-size: 15px;
         padding: 10px;
+    }
+        nav ul{
+        position: fixed;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        background: #111;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    nav ul li{
+        margin: 40px 0px;
+    }
+    nav ul li a{
+      display: block;
+    }
+    nav ul li a:hover{
+        background: none;
+        color: cyan;
     }
 
       
